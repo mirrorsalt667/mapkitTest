@@ -13,6 +13,7 @@
 		6469B12D268342AF005011E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469B12B268342AF005011E6 /* Main.storyboard */; };
 		6469B12F268342B1005011E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469B12E268342B1005011E6 /* Assets.xcassets */; };
 		6469B132268342B1005011E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469B130268342B1005011E6 /* LaunchScreen.storyboard */; };
+		64AFECFE268428E20098A167 /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AFECFD268428E20098A167 /* type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6469B12E268342B1005011E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6469B131268342B1005011E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6469B133268342B1005011E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AFECFD268428E20098A167 /* type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6469B125268342AF005011E6 /* AppDelegate.swift */,
 				6469B127268342AF005011E6 /* SceneDelegate.swift */,
 				6469B129268342AF005011E6 /* ViewController.swift */,
+				64AFECFD268428E20098A167 /* type.swift */,
 				6469B12B268342AF005011E6 /* Main.storyboard */,
 				6469B12E268342B1005011E6 /* Assets.xcassets */,
 				6469B130268342B1005011E6 /* LaunchScreen.storyboard */,
@@ -83,6 +86,8 @@
 			dependencies = (
 			);
 			name = test;
+			packageProductDependencies = (
+			);
 			productName = test;
 			productReference = 6469B122268342AF005011E6 /* test.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,8 @@
 				Base,
 			);
 			mainGroup = 6469B119268342AF005011E6;
+			packageReferences = (
+			);
 			productRefGroup = 6469B123268342AF005011E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6469B12A268342AF005011E6 /* ViewController.swift in Sources */,
+				64AFECFE268428E20098A167 /* type.swift in Sources */,
 				6469B126268342AF005011E6 /* AppDelegate.swift in Sources */,
 				6469B128268342AF005011E6 /* SceneDelegate.swift in Sources */,
 			);
